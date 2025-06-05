@@ -111,6 +111,6 @@ To install:
 pip install -r requirements.txt
 
 ---
-## 👤 Author
+## 👤 Authors
 
-**Roland Bolboaca**  
+**Roland Bolboaca and Lenard Teri**  
