@@ -105,17 +105,6 @@ The model is evaluated using the following classification metrics:
 - 📚 **AI in Life Sciences**  
   Demonstrates the application of machine learning in biological and ecological research domains.
 
-## 🧪 Requirements
-
-- Python 3.8+
-- TensorFlow or PyTorch
-- NumPy
-- Matplotlib
-- scikit-learn
-- pandas
-- seaborn
-- tqdm
-
 ---
 To install:
 
