@@ -88,6 +88,23 @@ The model is evaluated using the following classification metrics:
 
 ---
 
+## 📌 Use Cases
+
+- 🔬 **Biological Image Classification**  
+  Classify fungal species using macro and micro image data.
+
+- 📊 **Visual Data Exploration in Mycology**  
+  Generate plots to analyze data distributions and class balances.
+
+- 🧠 **Educational Tool for Deep Learning**  
+  A practical example of CNN usage in biological contexts, ideal for teaching or self-study.
+
+- 🧪 **Benchmarking for Scientific Research**  
+  Use confidence interval experiments to assess model robustness across repeated trials.
+
+- 📚 **AI in Life Sciences**  
+  Demonstrates the application of machine learning in biological and ecological research domains.
+
 ## 🧪 Requirements
 
 - Python 3.8+
@@ -99,7 +116,12 @@ The model is evaluated using the following classification metrics:
 - seaborn
 - tqdm
 
+---
 To install:
 
-```bash
 pip install -r requirements.txt
+
+---
+## 👤 Author
+
+**Roland Bolboaca**  
