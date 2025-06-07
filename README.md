@@ -50,7 +50,7 @@ Each notebook is organized into modular blocks:
 
 ## ▶️ How to Use
 
-0. ** Select One Script**
+0. **Select One Script**
 
 1. **Prepare Your Dataset**
    - Place your images inside:  
