@@ -5,8 +5,9 @@ A deep learning pipeline for classifying fungal species using macro and micro im
 ---
 
 ## 📁 Project Structure
+Both notebooks do the same thing but on diferent datasets: run (macro) and run_micro(micro).
 
-The notebook is organized into modular blocks:
+Each notebook is organized into modular blocks:
 
 - **Module Imports**  
   Loads all necessary Python libraries.
@@ -21,13 +22,14 @@ The notebook is organized into modular blocks:
   Trains the CNN using your dataset.
 
 - **Model Evaluation**  
-  Evaluates the trained model using the following metrics:
-  - ✅ **Accuracy**
-  - 📌 **Precision** (macro-average)
-  - 📌 **Recall** (macro-average)
-  - 📌 **F1 Score** (macro-average)
-  - 🧮 **Cohen’s Kappa**
-  - 🔗 **Matthews Correlation Coefficient (MCC)**
+  Evaluates the trained model using medically relevant **diagnostic performance metrics** for multi-class classification:
+
+- ✅ **Accuracy** – Overall proportion of correctly classified cases.
+- 💉 **Sensitivity (TPR)** – Ability to correctly identify positive cases.
+- 🛡️ **Specificity (TNR)** – Ability to correctly identify negative cases.
+- 📈 **Positive Predictive Value (PPV)** – Proportion of predicted positives that are correct.
+- 📉 **Negative Predictive Value (NPV)** – Proportion of predicted negatives that are correct .
+- 🔄 **F1 Score** – Harmonic mean of Sensitivity and PPV, balancing precision and recall.
 
 - **Run Model (Without Hyperparameter Tuning)**  
   Trains and evaluates the model with static parameters.
@@ -47,6 +49,8 @@ The notebook is organized into modular blocks:
 ---
 
 ## ▶️ How to Use
+
+0. ** Select One Script**
 
 1. **Prepare Your Dataset**
    - Place your images inside:  
