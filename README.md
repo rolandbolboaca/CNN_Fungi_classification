@@ -81,14 +81,14 @@ Each notebook is organized into modular blocks:
 
 The model is evaluated using the following classification metrics:
 
-| Metric         | Description                                      |
-|----------------|--------------------------------------------------|
-| Accuracy       | Overall correctness of the model predictions     |
-| Precision      | Macro-average precision across all classes       |
-| Recall         | Macro-average recall across all classes          |
-| F1 Score       | Harmonic mean of precision and recall (macro)    |
-| Cohen’s Kappa  | Measures agreement adjusted for chance           |
-| MCC            | Balanced metric even with imbalanced datasets    |
+| Metric                | Description                                                                                      |
+|-----------------------|--------------------------------------------------------------------------------------------------|
+| Sensitivity (TPR)     | Proportion of true positives correctly identified; also known as Recall.                        |
+| Specificity (TNR)     | Proportion of true negatives correctly identified.                                              |
+| Positive Predictive Value (PPV) | Proportion of positive predictions that are truly positive; corresponds to Precision.    |
+| Negative Predictive Value (NPV) | Proportion of negative predictions that are truly negative.                                |
+| F1 Score (F1)         | Harmonic mean of Sensitivity and PPV; balances precision and recall, useful with imbalanced data.|
+| Accuracy (ACC)        | Overall proportion of correct classifications across all classes.                               |
 
 ---
 
