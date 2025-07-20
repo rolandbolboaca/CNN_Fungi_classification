@@ -1,8 +1,44 @@
 # 🧠 Fungi Classifier (Macro & Micro Images)
 
-A deep learning pipeline for classifying fungal species using macro and micro image data. This project uses a Convolutional Neural Network (CNN) to identify patterns in fungal structures, enabling accurate species classification. It also includes statistical evaluations, visualization tools, and multiple experimental configurations.
+A deep learning pipeline for fungal species classification using both **macroscopic** and **microscopic** image data.
+
+This project leverages Convolutional Neural Networks (CNNs) to detect patterns in fungal morphology, ranging from colony structures to microscopic features, enabling high-accuracy species identification.
+
+### 🚀 Features
+- 📊 Statistical evaluation tools  
+- 📈 Interactive visualizations  
+- 🔬 Multiple experimental configurations  
+
+Developed as part of the **OpenFungi** initiative, this repository accompanies the peer-reviewed publication:
+
+📄 **Cighir, Anca, Roland Bolboacă, and Teri Lenard**  
+*OpenFungi: A Machine Learning Dataset for Fungal Image Recognition Tasks*  
+_Life_, **15**(7):1132, 2025  
+
+🔗 [Read the article](https://www.mdpi.com/2075-1729/15/7/1132)
+
+📁 **Dataset**: [Zenodo - OpenFungi Dataset](https://zenodo.org/records/15692070)
 
 ---
+
+## 📚 Citation
+
+If you use this code or dataset in your research, please cite our article:
+
+```bibtex
+@Article{life15071132,
+  AUTHOR = {Cighir, Anca and Bolboacă, Roland and Lenard, Teri},
+  TITLE = {OpenFungi: A Machine Learning Dataset for Fungal Image Recognition Tasks},
+  JOURNAL = {Life},
+  VOLUME = {15},
+  YEAR = {2025},
+  NUMBER = {7},
+  ARTICLE-NUMBER = {1132},
+  URL = {https://www.mdpi.com/2075-1729/15/7/1132},
+  ISSN = {2075-1729},
+  DOI = {10.3390/life15071132}
+}
+```
 
 ## 📁 Project Structure
 Both notebooks do the same thing but on diferent datasets: run (macro) and run_micro(micro).
