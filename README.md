@@ -1,4 +1,4 @@
-# 🧠 Fungi Classifier (Macro & Micro Images)
+# 🧠 Fungi Classifier (Macroscopic & Microscopic Images)
 
 A deep learning pipeline for fungal species classification using both **macroscopic** and **microscopic** image data.
 
