@@ -11,7 +11,7 @@ This project leverages Convolutional Neural Networks (CNNs) to detect patterns i
 
 Developed as part of the **OpenFungi** initiative, this repository accompanies the peer-reviewed publication:
 
-📄 **Cighir, Anca, Roland Bolboacă, and Teri Lenard**  
+📄 **Anca Cighir, Roland Bolboacă, and Teri Lenard**  
 *OpenFungi: A Machine Learning Dataset for Fungal Image Recognition Tasks*  
 _Life_, **15**(7):1132, 2025  
 
